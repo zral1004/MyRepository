@@ -1,0 +1,42 @@
+/*index에 about 관련 css*/
+hr.star-light {
+    border-color: #fff;
+}
+hr.star-light:after { /* 별표시 */
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-dark, hr.star-light {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+hr.star-dark:after, hr.star-light:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.read {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
